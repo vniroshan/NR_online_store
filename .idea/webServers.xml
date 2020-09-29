@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a90477b3-1fac-4280-bb22-7b16de15e82c" name="localhost" url="http://localhost\NR_online_store">
+        <fileTransfer mountedRoot="C:\xampp\htdocs\NR_online_store" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>

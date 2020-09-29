@@ -1,0 +1,257 @@
+.header{
+    background-color: #040870;
+    padding: 20px;
+    border-color: white;
+    border: solid white 10px;
+    position: relative;
+}
+
+
+
+.name{
+    width: 100%;
+    padding-top:0px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: blue;
+}
+
+li {
+  float: left;
+  border-right:3px solid #bbb;
+  
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #46F8F4 ;
+}
+
+.table{
+    padding-left: 10px;
+    display: iline;
+}
+
+.login{
+    padding-left: 1100px;
+    padding-top: 0px;
+    display: inine;
+}
+
+.menu th a{
+            text-decoration: none;
+            color: white;
+
+        }
+        .menu th a:hover{
+            color:#FF0066; 
+        }
+        .menu th a:active{
+            color: #388E3C;
+        }
+
+.admin_menu th a{
+            text-decoration: none;
+            color: white;
+           font-size: 20px;
+        }
+        .admin_menu th a:hover{
+            color:#FF0066; 
+        }
+        .admin_menu th a:active{
+            color: #388E3C;
+        }
+
+
+
+#kaatu{
+    display: none;
+}
+
+.box{
+
+    border-color: white;
+    border: solid white 10px;
+    background: #040870;
+    color: red;
+    top: 0%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+#delete_box{
+
+    border-color: white;
+    border: solid white 10px;
+    background: #04080;
+    color: red;
+    top: 80px;
+    left: 1100px;
+    position: relative;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    width: 20%;
+    height: 20%;
+    display: none;
+}
+
+#Add_suppliers{
+
+    border-color: white;
+    border: solid white 10px;
+    background: #040870;
+    color: red;
+    top: 80px;
+    left: 1100px;
+    position: relative;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    width: 20%;
+    height: 20%;
+    display: none;
+}
+
+.signup_box{
+
+    border-color: white;
+    border: solid white 10px;
+    background: #040870;
+    color: red;
+    top: 80%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.user{
+
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.box h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+
+p{
+    color: #58FAF4;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+ input[type="text"], input[type="password"] ,input[type="email"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #EFFBFB;
+    font-size: 16px;
+}
+
+.submit
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #2196f3;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+
+
+.submit:hover
+{
+    cursor: pointer;
+    background: #0097a7;
+}
+form .close
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+
+
+.close:hover
+{
+    cursor: pointer;
+    background:#FE642E;
+    
+}
+a
+{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFF00;
+}
+
+
+a:hover
+{
+    color: red;
+}
+
+#myDIV {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  
+  margin-top: 200px;
+}
+.viewtable{
+    background-color: blue;
+}
+
+.button{
+    background-color: blue;
+}
